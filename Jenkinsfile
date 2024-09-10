@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your code
-                git 'https://github.com/aabhi02/fastapi-test.git'
+                git 'https://github.com/aabhi02/jenkins-test.git'
             }
         }
         stage('Setup Conda Environment') {
